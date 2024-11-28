@@ -13,11 +13,25 @@
       defer
     ></script>
     <style>
-        *::-webkit-scrollbar {
-            display: none;
-        }
+      *::-webkit-scrollbar {
+        display: none;
+      }
     </style>
-    <link rel="shortcut icon" href="https://images-cdn.ubuy.co.id/6351c593fdf9471bab5905de-genuine-oe-bmw-integrated-key-512043.jpg" type="image/x-icon">
+    <link
+      rel="shortcut icon"
+      href="https://images-cdn.ubuy.co.id/6351c593fdf9471bab5905de-genuine-oe-bmw-integrated-key-512043.jpg"
+      type="image/x-icon"
+    />
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- Swiper CSS CDN -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+
+    <!-- Swiper JS CDN -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
   </head>
 
   <body class="bg-gray-100">
@@ -61,12 +75,12 @@
       <div class="container mx-auto text-center">
         <h2 class="text-4xl font-bold mb-5">Tentang BMW</h2>
         <p class="text-gray-700 mb-5">
-          adalah sebuah perusahaan otomotif Jerman yang memproduksi mobil dan
-          sepeda motor. BMW didirikan pada tahun 1916 oleh Franz Josef Popp. BMW
-          AG adalah perusahaan induk dari merk mobil MINI dan Rolls-Royce, dan,
-          dulunya Rover. BMW dikenal sebagai salah satu perusahaan mobil mewah
-          dengan performa tinggi, dan juga salah satu perusahaan mobil pertama
-          yang menggunakan teknologi ABS.
+          BMW adalah sebuah perusahaan otomotif Jerman yang memproduksi mobil
+          dan sepeda motor. BMW didirikan pada tahun 1916 oleh Franz Josef Popp.
+          BMW AG adalah perusahaan induk dari merk mobil MINI dan Rolls-Royce,
+          dan, dulunya Rover. BMW dikenal sebagai salah satu perusahaan mobil
+          mewah dengan performa tinggi, dan juga salah satu perusahaan mobil
+          pertama yang menggunakan teknologi ABS.
         </p>
       </div>
     </section>
@@ -75,36 +89,198 @@
     <section id="models" class="py-20 bg-gray-200">
       <div class="container mx-auto text-center">
         <h2 class="text-4xl font-bold mb-5">Model Kami</h2>
-        <div class="flex justify-center space-x-10">
-          <div class="bg-white p-5 rounded shadow-lg">
-            <img
-              src="https://cdn.motor1.com/images/mgl/1ZkqgW/s1/2023-bmw-x5.jpg"
-              alt="BMW X5"
-              class="rounded mb-4 h-48 w-full object-cover"
-            />
-            <h3 class="text-2xl font-semibold">BMW X5</h3>
-            <p class="text-gray-600">SUV mewah dengan performa tinggi.</p>
+
+        <!-- Swiper Container -->
+        <div class="swiper-container">
+          <div class="swiper-wrapper">
+            <!-- BMW X1 -->
+            <div class="swiper-slide">
+              <div class="bg-white p-5 rounded shadow-lg w-128">
+                <img
+                  src="https://imgcdn.oto.com/medium/gallery/exterior/3/2251/bmw-x1-66951.jpg"
+                  alt="BMW X1"
+                  class="rounded mb-4 h-48 w-full object-cover"
+                />
+                <h3 class="text-2xl font-semibold">BMW X1</h3>
+                <p class="text-gray-600">
+                  SUV kompak dengan desain modern dan kenyamanan premium.
+                </p>
+              </div>
+            </div>
+
+            <!-- BMW M4 COUPE -->
+            <div class="swiper-slide">
+              <div class="bg-white p-5 rounded shadow-lg w-128">
+                <img
+                  src="https://imgcdn.oto.com/medium/gallery/exterior/3/1741/bmw-m4-coupe-94893.jpg"
+                  alt="BMW M4 COUPE"
+                  class="rounded mb-4 h-48 w-full object-cover"
+                />
+                <h3 class="text-2xl font-semibold">BMW M4 COUPE</h3>
+                <p class="text-gray-600">
+                  Mobil sport coupe dengan performa luar biasa dan desain
+                  agresif.
+                </p>
+              </div>
+            </div>
+
+            <!-- BMW XM -->
+            <div class="swiper-slide">
+              <div class="bg-white p-5 rounded shadow-lg w-128">
+                <img
+                  src="https://imgcdn.oto.com/medium/gallery/exterior/3/2825/bmw-xm-80480.jpg"
+                  alt="BMW XM"
+                  class="rounded mb-4 h-48 w-full object-cover"
+                />
+                <h3 class="text-2xl font-semibold">BMW XM</h3>
+                <p class="text-gray-600">
+                  SUV listrik berperforma tinggi dengan teknologi mutakhir.
+                </p>
+              </div>
+            </div>
+
+            <!-- BMW I5 -->
+            <div class="swiper-slide">
+              <div class="bg-white p-5 rounded shadow-lg w-128">
+                <img
+                  src="https://imgcdn.oto.com/medium/gallery/exterior/3/2950/bmw-i5-38816.jpg"
+                  alt="BMW I5"
+                  class="rounded mb-4 h-48 w-full object-cover"
+                />
+                <h3 class="text-2xl font-semibold">BMW I5</h3>
+                <p class="text-gray-600">
+                  Sedan listrik dengan desain elegan dan performa tinggi.
+                </p>
+              </div>
+            </div>
+
+            <!-- BMW M3 SEDAN -->
+            <div class="swiper-slide">
+              <div class="bg-white p-5 rounded shadow-lg w-128">
+                <img
+                  src="https://imgcdn.oto.com/medium/gallery/exterior/3/42/bmw-m3-sedan-56076.jpg"
+                  alt="BMW M3 SEDAN"
+                  class="rounded mb-4 h-48 w-full object-cover"
+                />
+                <h3 class="text-2xl font-semibold">BMW M3 SEDAN</h3>
+                <p class="text-gray-600">
+                  Sedan performa tinggi yang menawarkan kecepatan dan
+                  kenyamanan.
+                </p>
+              </div>
+            </div>
+
+            <!-- BMW Z4 -->
+            <div class="swiper-slide">
+              <div class="bg-white p-5 rounded shadow-lg w-128">
+                <img
+                  src="https://imgcdn.oto.com/medium/gallery/exterior/3/2151/bmw-z4-67305.jpg"
+                  alt="BMW Z4"
+                  class="rounded mb-4 h-48 w-full object-cover"
+                />
+                <h3 class="text-2xl font-semibold">BMW Z4</h3>
+                <p class="text-gray-600">
+                  Roadster dua kursi dengan performa tinggi dan handling
+                  superior.
+                </p>
+              </div>
+            </div>
+
+            <!-- BMW IX -->
+            <div class="swiper-slide">
+              <div class="bg-white p-5 rounded shadow-lg w-128">
+                <img
+                  src="https://imgcdn.oto.com/medium/gallery/exterior/3/2372/bmw-ix-64750.jpg"
+                  alt="BMW IX"
+                  class="rounded mb-4 h-48 w-full object-cover"
+                />
+                <h3 class="text-2xl font-semibold">BMW IX</h3>
+                <p class="text-gray-600">
+                  SUV listrik canggih dengan kenyamanan dan teknologi modern.
+                </p>
+              </div>
+            </div>
+
+            <!-- BMW X3 -->
+            <div class="swiper-slide">
+              <div class="bg-white p-5 rounded shadow-lg w-128">
+                <img
+                  src="https://imgcdn.oto.com/medium/gallery/exterior/3/1978/bmw-x3-83740.jpg"
+                  alt="BMW X3"
+                  class="rounded mb-4 h-48 w-full object-cover"
+                />
+                <h3 class="text-2xl font-semibold">BMW X3</h3>
+                <p class="text-gray-600">
+                  SUV premium yang ideal untuk keluarga dengan performa tangguh.
+                </p>
+              </div>
+            </div>
+
+            <!-- BMW M4 CONVERTIBLE -->
+            <div class="swiper-slide">
+              <div class="bg-white p-5 rounded shadow-lg w-128">
+                <img
+                  src="https://imgcdn.oto.com/medium/gallery/exterior/3/2826/bmw-m4-convertible-35595.jpg"
+                  alt="BMW M4 CONVERTIBLE"
+                  class="rounded mb-4 h-48 w-full object-cover"
+                />
+                <h3 class="text-2xl font-semibold">BMW M4 CONVERTIBLE</h3>
+                <p class="text-gray-600">
+                  Mobil convertible dengan performa sport dan desain elegan.
+                </p>
+              </div>
+            </div>
+
+            <!-- BMW X6 -->
+            <div class="swiper-slide">
+              <div class="bg-white p-5 rounded shadow-lg w-128">
+                <img
+                  src="https://imgcdn.oto.com/medium/gallery/exterior/3/40/bmw-x6-50631.jpg"
+                  alt="BMW X6"
+                  class="rounded mb-4 h-48 w-full object-cover"
+                />
+                <h3 class="text-2xl font-semibold">BMW X6</h3>
+                <p class="text-gray-600">
+                  SUV mewah dengan tampilan agresif dan performa menakjubkan.
+                </p>
+              </div>
+            </div>
+
+            <!-- BMW X3 M -->
+            <div class="swiper-slide">
+              <div class="bg-white p-5 rounded shadow-lg w-128">
+                <img
+                  src="https://imgcdn.oto.com/medium/gallery/exterior/3/2407/bmw-x3-m-81095.jpg"
+                  alt="BMW X3 M"
+                  class="rounded mb-4 h-48 w-full object-cover"
+                />
+                <h3 class="text-2xl font-semibold">BMW X3 M</h3>
+                <p class="text-gray-600">
+                  Varian M dari X3, menawarkan kecepatan dan handling yang
+                  superior.
+                </p>
+              </div>
+            </div>
+
+            <!-- BMW X4 M -->
+            <div class="swiper-slide">
+              <div class="bg-white p-5 rounded shadow-lg w-128">
+                <img
+                  src="https://imgcdn.oto.com/medium/gallery/exterior/3/2414/bmw-x4-m-76020.jpg"
+                  alt="BMW X4 M"
+                  class="rounded mb-4 h-48 w-full object-cover"
+                />
+                <h3 class="text-2xl font-semibold">BMW X4 M</h3>
+                <p class="text-gray-600">
+                  SUV coupe yang sporty dengan tenaga besar dan handling tajam.
+                </p>
+              </div>
+            </div>
           </div>
-          <div class="bg-white p-5 rounded shadow-lg">
-            <img
-              src="https://cdn.motor1.com/images/mgl/9q9ob/s3/manhart-bmw-m3-and-m4.jpg"
-              alt="BMW M3"
-              class="rounded mb-4 h-48 w-full object-cover"
-            />
-            <h3 class="text-2xl font-semibold">BMW M3</h3>
-            <p class="text-gray-600">
-              Mobil sport yang dirancang untuk kecepatan.
-            </p>
-          </div>
-          <div class="bg-white p-5 rounded shadow-lg">
-            <img
-              src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/BMW_730d_%28G11%2C_Facelift%29_%E2%80%93_f_16012021.jpg/1200px-BMW_730d_%28G11%2C_Facelift%29_%E2%80%93_f_16012021.jpg"
-              alt="BMW 7 Series"
-              class="rounded mb-4 h-48 w-full object-cover"
-            />
-            <h3 class="text-2xl font-semibold">BMW 7 Series</h3>
-            <p class="text-gray-600">Sedan mewah dengan teknologi canggih.</p>
-          </div>
+
+          <!-- Swiper Navigation -->
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
         </div>
       </div>
     </section>
@@ -114,7 +290,7 @@
       id="contact"
       class="py-20 bg-cover bg-center"
       style="
-        background-image: url(https://images.prismic.io/bmw-eurokarscoid/Zwi6AIF3NbkBXO1O_P90466481_highRes_bmw-m-fleet-06-2022.jpg?auto=format,compress);
+        background-image: url('https://images.prismic.io/bmw-eurokarscoid/Zwi6AIF3NbkBXO1O_P904612881_highRes_bmw-m-fleet-06-2022.jpg?auto=format,compress');
       "
     >
       <div
@@ -157,8 +333,27 @@
     <!-- Footer -->
     <footer class="bg-gray-800 text-white py-5">
       <div class="container mx-auto text-center">
-        <p>&copy; 2023 BMW. Semua hak dilindungi.</p>
+        <p>&copy; 2024 BMW. Semua hak dilindungi.</p>
       </div>
     </footer>
+
+    <script>
+      // Swiper Initialization
+      const swiper = new Swiper(".swiper-container", {
+        slidesPerView: 3, // Menampilkan 3 model dalam 1 layar
+        spaceBetween: 20, // Spasi antara setiap slide
+        loop: true,
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        autoplay: {
+          delay: 3000, // Auto-scroll setiap 3 detik
+          disableOnInteraction: false,
+        },
+      });
+
+      // ScrollReveal Initialization
+    </script>
   </body>
 </html>
